@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 450px;
+    margin: 50px auto;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.section {
+    display: flex;
+}
+
+.container p {
+    margin-top: -10px;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.input {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+}
+
+.user {
+    width: 100%;
+}
+
+.score-container {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 5px 10px;
+    margin: 50px auto;
+}
+
+.score-content {
+    display: flex;
+    gap: 10px;
+}
+
+.score-card {
+    width: 200px;
+    height: 75px;
+    background-color: rgb(233, 204, 166);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.score-card p {
+    margin: 0;
+}
+
+.w {
+    width: 100%;
+}
+
+.score-flex {
+    display: flex;
+    align-items: center;
+}
+
+.green {
+    color: green;
+    padding-left: 20px;
+}
+
+.achievement-50 {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(255, 238, 196);
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.achievement-50 h1 {
+    margin: 0;
+}
+
+.d-none {
+    display: none;
+}
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+        margin: 30px auto;
+    }
+    .input {
+        width: 100%;
+    }
+    .section {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+        margin: 20px auto;
+    }
+    .score-container {
+        width: 90%;
+        height: auto;
+    }
+}
